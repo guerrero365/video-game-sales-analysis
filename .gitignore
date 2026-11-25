@@ -1,0 +1,22 @@
+# Python y entornos virtuales
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.conda/
+
+# Jupyter y VS Code
+.ipynb_checkpoints/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# Datos procesados o temporales 
+data/processed/*.csv
+*.log
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
